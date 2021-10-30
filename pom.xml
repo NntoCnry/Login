@@ -10,6 +10,7 @@
 		<maven.compiler.target>11</maven.compiler.target>
 		<maven.compiler.source>11</maven.compiler.source>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<exec.Mainclass>login.Main</exec.Mainclass>
 	</properties>
 
 	<dependencies>
@@ -18,11 +19,7 @@
 			<artifactId>javafx-controls</artifactId>
 			<version>11.0.2</version>
 		</dependency>
-		<dependency>
-			<groupId>org.openjfx</groupId>
-			<artifactId>javafx-swing</artifactId>
-			<version>11.0.2</version>
-		</dependency>
+
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-fxml</artifactId>
